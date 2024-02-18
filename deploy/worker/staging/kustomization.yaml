@@ -12,3 +12,7 @@ commonAnnotations:
   supported-by: "sre@example.com"
 
 namespace: instavote
+
+replicas:
+  - name: worker
+    count: 0
