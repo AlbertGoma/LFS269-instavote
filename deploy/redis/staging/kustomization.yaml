@@ -15,4 +15,4 @@ namespace: instavote
 
 replicas:
   - name: redis
-    count: 1
+    count: 0
