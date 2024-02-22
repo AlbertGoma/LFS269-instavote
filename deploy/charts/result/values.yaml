@@ -8,7 +8,7 @@ image:
   repository: albertgoma/result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest" # {"$imagepolicy": "flux-system:result:tag"}
+  tag: "latest" 
 
 imagePullSecrets: []
 nameOverride: ""
